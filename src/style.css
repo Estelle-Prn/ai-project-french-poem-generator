@@ -1,3 +1,19 @@
 body {
   text-align: center;
+  background-color: #fff1fa;
+}
+header {
+  margin: 50px auto;
+}
+form {
+  background-color: white;
+  padding: 30px;
+  margin: auto 400px;
+  border-radius: 20px;
+}
+.input-text {
+  border-color: #edb8eb;
+}
+footer {
+  margin-top: 30px;
 }
