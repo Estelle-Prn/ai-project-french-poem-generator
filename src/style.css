@@ -7,14 +7,40 @@ header {
 }
 form {
   background-color: white;
-  padding: 30px;
-  margin: auto 400px;
+  padding: 50px 30px;
+  margin: auto 450px;
   border-radius: 20px;
+  display: flex;
 }
 .input-text {
   border: 2px solid grey;
   border-radius: 10px;
+  width: 70%;
   padding: 14px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.input-button {
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 15px 20px;
+  background-color: #fff1fa;
+  border-color: black;
+}
+.input-button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: #fff1fa;
+  border-color: gray;
+  transition: all ease-in-out 1s;
+}
+.poem {
+  background-color: white;
+  font-size: 18px;
+}
+.name {
+  color: #006f46;
+  font-size: 24px;
 }
 footer {
   margin-top: 30px;
