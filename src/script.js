@@ -1,6 +1,12 @@
 function showPoem(event) {
   event.preventDefault();
-  alert("Hello");
+
+  new Typewriter("#poem", {
+    strings: ["Ni vous sans moi, ni moi sans vous."],
+    autoStart: true,
+    cursor: "",
+    delay: 1,
+  });
 }
 
 let searchingPoem = document.querySelector("#research");

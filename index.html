@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Generator</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -12,7 +13,7 @@
       <h2>French Poem Generator</h2>
     </header>
     <main>
-      <form>
+      <form id="research">
         <input
           type="text"
           placeholder="Enter a topic for a French poem"
@@ -24,26 +25,7 @@
       </form>
       <div class="poem-author">
         <div class="poem-title">Ni vous sans moi</div>
-        <div class="poem">
-          D’eux deux il en fut ainsi
-          <br />
-          Comme il en est du chèvrefeuille
-          <br />
-          Qui au coudrier se prend:
-          <br />
-          Quand il s’est enlacé et pris
-          <br />
-          Et tout autour du fût s’est mis,
-          <br />
-          Ensemble ils peuvent bien durer;
-          <br />
-          Qui les veut ensuite désunir Fait tôt le coudrier mourir
-          <br />
-          Et le chèvrefeuille avec lui.
-          <br />
-          – Belle amie, ainsi est de nous:
-          <br />Ni vous sans moi, ni moi sans vous.
-        </div>
+        <div class="poem" id="poem" data-typewriter-loop="noloop"></div>
         <div class="name">
           Marie de France <span class="dates">(1160-1210)</span>
         </div>
