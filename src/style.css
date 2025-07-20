@@ -1,19 +1,31 @@
 body {
   text-align: center;
-  background-color: #fff1fa;
+  background-color: #fbcae0;
 }
 header {
-  margin: 50px auto;
+  margin: 50px 500px;
+  font-family: "Charter";
+  font-size: 20px;
+  border: solid 7px white;
+  background-color: #fbcae0;
+}
+h1 {
+  color: #008854;
+  margin-bottom: 0;
+}
+h2 {
+  color: #c60a8d;
+  margin-top: 0;
 }
 form {
-  background-color: white;
-  padding: 50px 30px;
-  margin: auto 450px;
+  background-color: #fff1fa;
+  padding: 50px 20px 50px 40px;
+  margin: auto 400px;
   border-radius: 20px;
   display: flex;
 }
 .input-text {
-  border: 2px solid grey;
+  border: 2px solid black;
   border-radius: 10px;
   width: 70%;
   padding: 14px;
@@ -24,24 +36,43 @@ form {
   font-size: 16px;
   border-radius: 10px;
   padding: 15px 20px;
-  background-color: #fff1fa;
-  border-color: black;
+  background-color: #fbcae0;
+  border: solid 2px black;
 }
 .input-button:hover {
   cursor: pointer;
   background-color: black;
-  color: #fff1fa;
-  border-color: gray;
-  transition: all ease-in-out 1s;
+  color: #fbcae0;
+  border: solid 2px #fbcae0;
+  transition: all ease-in-out 0.7s;
+}
+.poem-author {
+  background-color: #aaf0d1;
+  padding: 20px 0 40px;
+  margin: 20px 470px;
+  border: solid 4px #fff1fa;
+  border-radius: 10px;
+}
+.poem-title {
+  color: #006f46;
+  font-family: "Palatino";
+  font-size: 30px;
+  padding-bottom: 20px;
 }
 .poem {
-  background-color: white;
-  font-size: 18px;
+  font-size: 17px;
+  line-height: 1.6;
 }
 .name {
-  color: #006f46;
-  font-size: 24px;
+  padding-top: 30px;
+  color: #c60a8d;
+  font-size: 28px;
+  font-family: Apple Chancery;
 }
 footer {
-  margin-top: 30px;
+  margin: 50px 0;
+  font-size: 18px;
+}
+footer a {
+  color: #631cb3;
 }
