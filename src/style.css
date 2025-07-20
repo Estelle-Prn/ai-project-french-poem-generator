@@ -1,13 +1,13 @@
 body {
   text-align: center;
-  background-color: #fbcae0;
+  background-color: #e8eaf9;
 }
 header {
   margin: 50px 500px;
   font-family: "Charter";
   font-size: 20px;
   border: solid 7px white;
-  background-color: #fbcae0;
+  background-color: #e8eaf9;
 }
 h1 {
   color: #008854;
@@ -18,7 +18,7 @@ h2 {
   margin-top: 0;
 }
 form {
-  background-color: #fff1fa;
+  background-color: white;
   padding: 50px 20px 50px 40px;
   margin: auto 400px;
   border-radius: 20px;
@@ -36,12 +36,12 @@ form {
   font-size: 18px;
   border-radius: 10px;
   padding: 15px 20px;
-  background-color: #fbcae0;
+  background-color: #e8eaf9;
   border: solid 2px black;
 }
 .input-button:hover {
   cursor: pointer;
-  background-color: #c1c4c7;
+  background-color: #aaf0d1;
   color: #c60a8d;
   border: solid 2px #c60a8d;
   transition: all ease-in-out 0.5s;
