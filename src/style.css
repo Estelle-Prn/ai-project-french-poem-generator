@@ -33,7 +33,7 @@ form {
   margin-right: 10px;
 }
 .input-button {
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 10px;
   padding: 15px 20px;
   background-color: #fbcae0;
@@ -41,10 +41,10 @@ form {
 }
 .input-button:hover {
   cursor: pointer;
-  background-color: black;
-  color: #fbcae0;
-  border: solid 2px #fbcae0;
-  transition: all ease-in-out 0.7s;
+  background-color: #c1c4c7;
+  color: #c60a8d;
+  border: solid 2px #c60a8d;
+  transition: all ease-in-out 0.5s;
 }
 .poem-author {
   background-color: #aaf0d1;
@@ -74,5 +74,5 @@ footer {
   font-size: 18px;
 }
 footer a {
-  color: #631cb3;
+  color: #006f46;
 }
