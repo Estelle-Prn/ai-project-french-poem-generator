@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>AI Generator</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -20,14 +21,15 @@
           autofocus
           required
           class="input-text"
+          id="word-search"
         />
         <input type="submit" class="input-button" />
       </form>
       <div class="poem-author">
-        <div class="poem-title">Ni vous sans moi</div>
+        <div class="poem-title"></div>
         <div class="poem" id="poem" data-typewriter-loop="noloop"></div>
         <div class="name">
-          Marie de France <span class="dates">(1160-1210)</span>
+          <span class="dates"></span>
         </div>
       </div>
     </main>
