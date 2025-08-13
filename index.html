@@ -14,20 +14,25 @@
       <h2>French Poem Generator</h2>
     </header>
     <main>
-      <form id="research">
-        <input
-          type="text"
-          placeholder="Enter a topic for a French poem"
-          autofocus
-          required
-          class="input-text"
-          id="word-search"
-        />
-        <input type="submit" class="input-button" />
-      </form>
+      <div class="search-block">
+        <form id="research">
+          <input
+            type="text"
+            placeholder="Enter a word for having a French poem"
+            autofocus
+            required
+            class="input-text"
+            id="word-search"
+          />
+          <input type="submit" class="input-button" />
+        </form>
+        <div class="exemple">ex. : flower, rain, town...</div>
+      </div>
       <div class="poem-author">
         <div class="poem-title"></div>
-        <div class="poem" id="poem" data-typewriter-loop="noloop"></div>
+        <div class="poem ring" id="poem" data-typewriter-loop="noloop">
+          <span></span>
+        </div>
         <div class="name">
           <span class="dates"></span>
         </div>

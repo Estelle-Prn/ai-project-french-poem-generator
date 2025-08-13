@@ -17,12 +17,19 @@ h2 {
   color: #c60a8d;
   margin-top: 0;
 }
-form {
+.search-block {
   background-color: white;
-  padding: 50px 20px 50px 40px;
+  padding: 50px 20px 30px 40px;
   margin: auto 400px;
   border-radius: 20px;
+}
+form {
   display: flex;
+}
+.exemple {
+  margin-top: 20px;
+  display: flex;
+  color: #008854;
 }
 .input-text {
   border: 2px solid black;
@@ -46,6 +53,7 @@ form {
   border: solid 2px #c60a8d;
   transition: all ease-in-out 0.5s;
 }
+
 .poem-author {
   background-color: #aaf0d1;
   padding: 20px 0 40px;
